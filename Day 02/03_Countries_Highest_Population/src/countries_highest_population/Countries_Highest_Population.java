@@ -12,9 +12,9 @@ import java.util.Set;
 public class Countries_Highest_Population {
 
     public static void main(String[] args) {
-        CountryCSVDAO co = new CountryCSVDAO("F:\\AI\\06- Java development\\countries.csv");
+        CountryCSVDAO co = new CountryCSVDAO("src\\main\\resources\\countries.csv");
         List<Country> country = co.readCountryFromCSV();
-        CityCSVDAO ci = new CityCSVDAO("F:\\AI\\06- Java development\\cities.csv");
+        CityCSVDAO ci = new CityCSVDAO("src\\main\\resources\\cities.csv");
         List<City> city = ci.readCityFromCSV();
         
        Set<String> countryIDsSet = new HashSet<>();
