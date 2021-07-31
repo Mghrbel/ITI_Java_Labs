@@ -8,7 +8,7 @@ import static java.util.stream.Collectors.toList;
 public class Pyramids_median_quartile {
 
     public static void main(String[] args) {
-        PyramidCSVDAO py = new PyramidCSVDAO("F:\\AI\\06- Java development\\pyramids.csv");
+        PyramidCSVDAO py = new PyramidCSVDAO("src\\main\\resources\\pyramids.csv");
         List<Pyramid> pyramids = py.readPyramidFromCSV();
       
         
